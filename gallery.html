@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Kagere & Kezia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Special Override for Gallery Page to remove hamburger menu */
+        .mobile-menu-toggle {
+            display: none !important;
+        }
+        .nav-links {
+            position: static !important;
+            height: auto !important;
+            width: auto !important;
+            background: transparent !important;
+            flex-direction: row !important;
+            backdrop-filter: none !important;
+            border: none !important;
+            right: auto !important;
+            max-width: none !important;
+            padding: 0 !important;
+        }
+        @media screen and (max-width: 768px) {
+            .nav-links {
+                display: flex !important;
+                gap: 1rem !important;
+            }
+            .nav-links a {
+                font-size: 0.9rem !important;
+                margin: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="nav-logo">K&K</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="journey.html">Our Journey</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Animation Layer -->
+    <div id="heart-container"></div>
+
+    <main>
+        <section id="gallery-page" class="content-section" style="padding-top: 140px;">
+            <h2 class="section-title">Captured Moments</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item glass">
+                    <img src="images/IMG-20260221-WA0007.jpg" alt="Moment" class="gallery-img">
+                    <div class="media-overlay"><p>A moment frozen in time, where your smile was everything.</p></div>
+                </div>
+                <div class="gallery-item glass">
+                    <video class="gallery-video" autoplay muted loop playsinline>
+                        <source src="images/VID-20251218-WA0003.mp4" type="video/mp4">
+                    </video>
+                    <div class="media-overlay"><p>Reliving the whispers and the warmth of your laughter.</p></div>
+                </div>
+                <div class="gallery-item glass">
+                    <img src="images/IMG-20260221-WA0008.jpg" alt="Moment" class="gallery-img">
+                    <div class="media-overlay"><p>Beauty in every detail, grace in every movement.</p></div>
+                </div>
+                <div class="gallery-item glass">
+                    <video class="gallery-video" autoplay muted loop playsinline>
+                        <source src="images/VID-20260102-WA0005.mp4" type="video/mp4">
+                    </video>
+                    <div class="media-overlay"><p>Every second shared is a gift I cherish forever.</p></div>
+                </div>
+                <div class="gallery-item glass">
+                    <img src="images/IMG-20260221-WA0009.jpg" alt="Moment" class="gallery-img">
+                    <div class="media-overlay"><p>The light in your eyes, my favorite destination.</p></div>
+                </div>
+                <div class="gallery-item glass">
+                    <img src="images/IMG-20251018-WA0017.jpg" alt="Moment" class="gallery-img">
+                    <div class="media-overlay"><p>Captured love, enduring and beautiful since 2022.</p></div>
+                </div>
+            </div>
+            
+            <section id="notes" class="content-section" style="margin-top: 5rem;">
+                <h2 class="section-title">Messages for You</h2>
+                <div class="notes-container">
+                    <div class="note-card glass">
+                        <p>"Every photo of you is my favorite masterpiece. You are beauty defined."</p>
+                        <span class="note-footer">— Kagere</span>
+                    </div>
+                    <div class="note-card glass">
+                        <p>"Capturing our moments is my way of holding onto a piece of heaven every day."</p>
+                        <span class="note-footer">— Forever Yours</span>
+                    </div>
+                </div>
+            </section>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="index.html" class="btn btn-primary">Back Home</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

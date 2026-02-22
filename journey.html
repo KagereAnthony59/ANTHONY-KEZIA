@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Journey | Kagere & Kezia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="nav-logo">K&K</a>
+        <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="journey.html" class="active">Our Journey</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Animation Layer -->
+    <div id="heart-container"></div>
+
+    <main>
+        <!-- Our Journey Timeline Page -->
+        <section id="journey-page" class="content-section" style="padding-top: 140px;">
+            <h2 class="section-title">The Story of Us</h2>
+            <div class="timeline">
+              <div class="timeline-item left" data-year="2022">
+                <div class="timeline-content glass">
+                  <h3>Where It All Began</h3>
+                  <p class="timeline-text">In 2022, our paths crossed at <strong>Archbishop Sitensera SS</strong> in Buwama, Mpigi. We were both in Senior Four (S4) when the spark of our love first ignited. We never imagined then that we would come this far together.</p>
+                </div>
+              </div>
+              <div class="timeline-item right" data-year="Present">
+                <div class="timeline-content glass">
+                  <h3>Growing Stronger Every Day</h3>
+                  <p class="timeline-text">Since that high school spark, our relationship has only grown stronger. Every day, our bond deepens, and we continue to build a future filled with happiness and love. Looking back, we are so proud of the journey we've walked together.</p>
+                </div>
+              </div>
+            </div>
+            
+            <section id="notes" class="content-section" style="margin-top: 4rem;">
+                <h2 class="section-title">Messages for You</h2>
+                <div class="notes-container">
+                    <div class="note-card glass">
+                        <p>"From S4 at Archbishop Sitensera till forever, my heart has known only you."</p>
+                        <span class="note-footer">— Kagere</span>
+                    </div>
+                    <div class="note-card glass">
+                        <p>"Every step we've taken together since 2022 has been the greatest blessing of my life."</p>
+                        <span class="note-footer">— Forever Yours</span>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="story-actions" style="margin-top: 4rem; display: flex; justify-content: center; gap: 1.5rem;">
+                <a href="index.html" class="btn btn-primary">Back Home</a>
+                <a href="about.html" class="btn btn-outline">Meet the Couple</a>
+            </div>
+            
+            <div class="heart-pulse" style="text-align: center; margin-top: 3rem;">💖</div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

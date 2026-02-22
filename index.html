@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kagere & Kezia | Our Story</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="nav-logo">K&K</a>
+        <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="journey.html">Our Journey</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Animation Layer -->
+    <div id="heart-container"></div>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="glass-section">
+        <div class="hero-content">
+          <div class="profile-container">
+            <img src="images/IMG-20260221-WA0006.jpg" alt="Kagere & Kezia" id="hero-img" class="profile-pic">
+             <img src="images/IMG-20260221-WA0007.jpg" alt="Kagere & Kezia" id="hero-img" class="profile-pic">
+          </div>
+          <h1 class="accent-text">Anthony & Kezia</h1>
+          <p class="subtitle">Our Journey Since 2022</p>
+          <p class="hero-description" style="max-width: 600px; margin: 1.5rem auto; font-size: 1.1rem; opacity: 0.9; line-height: 1.6;">
+              Welcome to the digital sanctuary of our love. A place where every pixel tells a story of two hearts beating as one since the wonderful year of 2022.
+          </p>
+          <div class="hero-actions" style="position: relative; z-index: 10; justify-content: center;">
+              <a href="about.html" class="btn btn-primary">Discover Our Personalities</a>
+              <a href="#journey" class="btn btn-outline">Walk Our Path</a>
+          </div>
+          <div class="heart-pulse">❤️</div>
+        </div>
+      </section>
+
+
+
+      <!-- Media Gallery -->
+      <section id="gallery" class="content-section">
+        <h2 class="section-title">Captured Moments</h2>
+        <div class="gallery-grid">
+          <!-- Real Media from Images folder -->
+          <div class="gallery-item glass">
+            <img src="images/IMG-20260221-WA0007.jpg" alt="Moment" class="gallery-img">
+          </div>
+          <div class="gallery-item glass">
+            <video class="gallery-video" autoplay muted loop playsinline>
+              <source src="images/VID-20251218-WA0003.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"><p>Reliving our sweet whispers...</p></div>
+          </div>
+          <div class="gallery-item glass">
+            <img src="images/IMG-20260221-WA0008.jpg" alt="Moment" class="gallery-img">
+          </div>
+          <div class="gallery-item glass">
+            <video class="gallery-video" autoplay muted loop playsinline>
+              <source src="images/VID-20260102-WA0005.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"><p>Every second with you is a gift.</p></div>
+          </div>
+          <div class="gallery-item glass">
+            <img src="images/IMG-20260221-WA0009.jpg" alt="Moment" class="gallery-img">
+          </div>
+          <div class="gallery-item glass">
+            <img src="images/IMG-20251018-WA0017.jpg" alt="Moment" class="gallery-img">
+          </div>
+        </div>
+      </section>
+
+      <!-- Love Notes -->
+      <section id="notes" class="content-section">
+        <h2 class="section-title">Messages for You</h2>
+        <div class="notes-container">
+          <div class="note-card glass">
+            <p>"You are my greatest adventure and my most beautiful home."</p>
+            <span class="note-footer">— Kagere</span>
+          </div>
+          <div class="note-card glass">
+            <p>"To many more years of us, building a legacy of love that never fades."</p>
+            <span class="note-footer">— Forever Yours</span>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

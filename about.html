@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Kagere & Kezia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="nav-logo">K&K</a>
+        <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="journey.html">Our Journey</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Background Animation Layer -->
+    <div id="heart-container"></div>
+
+    <main>
+        <section id="about-hero" class="content-section" style="padding-top: 120px;">
+            <h2 class="section-title">Who We Are</h2>
+            <div class="about-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; padding: 2rem;">
+                <div class="about-card glass" style="padding: 2rem; text-align: center;">
+                    <img src="images/IMG-20260221-WA0006.jpg" alt="Kagere" class="profile-pic" style="width: 150px; height: 150px; margin-bottom: 1rem;">
+                    <h3>Kagere Anthony</h3>
+                    <p style="margin-top: 1rem; font-style: italic;">"Deeply proud and forever devoted."</p>
+                    <p style="margin-top: 1rem;">Kagere finds his greatest pride in the woman by his side. Every single day, his thoughts are filled with Kezia, and his mission is to make her feel the happiest and most loved person in the world.</p>
+                </div>
+                <div class="about-card glass" style="padding: 2rem; text-align: center;">
+                    <img src="images/IMG-20260221-WA0011.jpg" alt="Kezia" class="profile-pic" style="width: 150px; height: 150px; margin-bottom: 1rem;">
+                    <h3>Namutebi Kezia</h3>
+                    <p style="margin-top: 1rem; font-style: italic;">"Good, Beautiful, and Calm."</p>
+                    <p style="margin-top: 1rem;">Kezia is truly a vision of beauty and grace. Known for her calm and pleasing nature, she reciprocates Kagere's deep affection with a love that makes every day brighter and more meaningful.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-story" class="content-section">
+            <div class="story-container glass" style="max-width: 800px; margin: 0 auto; padding: 3rem; text-align: center;">
+                <h2 style="font-family: 'Dancing Script', cursive; font-size: 2.5rem; margin-bottom: 1.5rem; color: var(--primary-red);">The Essence of Us</h2>
+                <p style="font-size: 1.2rem; line-height: 1.8;">Our story isn't just about the years we've shared, but the moments that defined us. From the first greeting to the deep connection we share today, every step has been a beautiful revelation of what true partnership means.</p>
+                <div class="story-actions" style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 1rem;">
+                    <a href="index.html" class="btn btn-primary">Back Home</a>
+                    <a href="index.html#gallery" class="btn btn-outline">Explore Gallery</a>
+                </div>
+                <div class="heart-pulse" style="font-size: 3rem; margin-top: 2rem;">💖</div>
+            </div>
+        <section id="notes" class="content-section">
+            <h2 class="section-title">Messages for You</h2>
+            <div class="notes-container">
+                <div class="note-card glass">
+                    <p>"Your calm soul is the anchor I always needed in this busy world."</p>
+                    <span class="note-footer">— Kagere</span>
+                </div>
+                <div class="note-card glass">
+                    <p>"I am so incredibly proud of the woman you are. You are my ultimate inspiration."</p>
+                    <span class="note-footer">— Forever Yours</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
